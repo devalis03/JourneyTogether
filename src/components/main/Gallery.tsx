@@ -16,6 +16,7 @@ function GalleryCarousel() {
         <div>
           <GalleryContent />
         </div>
+        <h2>Explore using other people experiences</h2>
       </div>
     </>
   );

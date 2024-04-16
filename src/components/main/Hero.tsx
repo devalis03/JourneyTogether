@@ -14,9 +14,9 @@ function Hero() {
             muted
             loop
             id="backgroundVideo"
-            className="w-full h-96"
+            className="w-full h-[420px]"
           >
-            <source src={EarthPhone} type="video/mp4" className="" />
+            <source src={EarthPhone} type="video/mp4" />
           </video>
         </div>
       </div>
