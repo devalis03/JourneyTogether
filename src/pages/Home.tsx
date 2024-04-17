@@ -1,35 +1,19 @@
 import GalleryCarousel from "@/components/main/Gallery";
 import NavigationBar from "../components/main/Navbar";
+import SocialCommunity from "@/components/main/Community";
 import Hero from "@/components/main/Hero";
 
 function Home() {
   return (
     <>
-      <nav>
+      <nav className="">
         <NavigationBar />
       </nav>
-      <body className="bg-black py-16 space-y-72">
+      <main className="bg-black py-16 space-y-72">
         <Hero />
         <GalleryCarousel />
-        <h1>HOLS</h1>
-        <h1>HOLS</h1>
-        <h1>HOLS</h1>
-        <h1>HOLS</h1>
-        <h1>HOLS</h1>
-        <h1>HOLS</h1>
-        <h1>HOLS</h1>
-        <h1>HOLS</h1>
-        <h1>HOLS</h1>
-        <h1>HOLS</h1>
-        <h1>HOLS</h1>
-        <h1>HOLS</h1>
-        <h1>HOLS</h1>
-        <h1>HOLS</h1>
-        <h1>HOLS</h1>
-        <h1>HOLS</h1>
-        <h1>HOLS</h1>
-        <h1>HOLS</h1>
-      </body>
+        <SocialCommunity />
+      </main>
     </>
   );
 }
