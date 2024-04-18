@@ -13,7 +13,7 @@ function NavigationBar() {
 
   return (
     <>
-      <div className="flex bg-black py-5 justify-between items-center fixed w-full text-white">
+      <div className="flex bg-black py-5 justify-between items-center fixed w-full text-white z-50">
         <div>
           <Link to="/">
             <img src={Logo} alt="logo" className="w-60 ms-10" />
@@ -31,7 +31,7 @@ function NavigationBar() {
                 ABOUT US
               </Link>
             </li>
-            <Button className="bg-[#3498DB] px-6 hover:outline hover:shadow-xl hover:shadow-[#3498DB]">
+            <Button className="bg-[#3498DB] px-6 hover:outline hover:shadow-xl hover:shadow-[#3498DB] duration-1000">
               MORE
             </Button>
           </ul>

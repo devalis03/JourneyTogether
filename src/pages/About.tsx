@@ -1,3 +1,4 @@
+import IntroAbout from "@/components/main/AboutIntro";
 import NavigationBar from "@/components/main/Navbar";
 
 function About() {
@@ -6,7 +7,9 @@ function About() {
       <nav>
         <NavigationBar />
       </nav>
-      <h1>GASTON</h1>
+      <main className="bg-black py-16 space-y-72">
+        <IntroAbout />
+      </main>
     </>
   );
 }
